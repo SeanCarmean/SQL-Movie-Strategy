@@ -1,0 +1,12 @@
+Here's a SQL query to find out if a certain genre had the most sales
+
+SELECT F.name AS genre,
+	   SUM(amount) AS total_amount
+FROM payment A
+INNER JOIN rental B ON a.rental_id = b.rental_id
+INNER JOIN inventory C ON b.inventory_id = c.inventory_id
+INNER JOIN film D ON c.film_id = d.film_id
+INNER JOIN film_category E ON d.film_id = e.film_id
+INNER JOIN category F ON e.category_id = f.category_id
+GROUP BY(F.name)
+ORDER BY(SUM(amount)) DESC
