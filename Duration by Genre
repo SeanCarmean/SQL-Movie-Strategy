@@ -1,0 +1,9 @@
+Here's a SQL query to see if certain genres were rented for a longer period of time
+
+SELECT C.name AS genre,
+	   AVG(rental_duration) AS avg_rental_duration
+FROM film A
+INNER JOIN film_category B ON a.film_id = b.film_id
+INNER JOIN category C ON b.category_id = c.category_id
+GROUP BY(c.name)
+ORDER BY(AVG(rental_duration)) DESC
