@@ -1,7 +1,7 @@
 # SQL-Movie-Strategy
 Identifying trends in movies sales to help a company launch a streaming service.
 
-For a project on my **CareerFoundry** course I was tasked in pulling data across multiple databases in SQL in order to help *Rockbuster Stealth LLC* develop a key strategy to launch their streaming service.
+For a project on my **CareerFoundry** course I was tasked in pulling [data](C:\Users\Sean\Desktop\CareerFoundry\Rockbuster.zip\Rockbuster) across multiple databases in SQL in order to help *Rockbuster Stealth LLC* develop a key strategy to launch their streaming service.
 
 Some key questions I wanted to answer were:
 1. Which movies contributed to the highest/lowest revenue?
